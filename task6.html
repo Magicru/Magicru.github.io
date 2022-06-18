@@ -1,0 +1,25 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Li Jiazhe</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div class="code-example">
+    <p> (0020) Напишите функцию task от двух аргументов, в первый из которых передаётся строка (x), 
+        а во второй коллбэк-функция. Ваша функция task должна возвращать результат вызова коллбэка с 
+        передачей ему null в качестве первого параметра и результата конкатенации вашего логина в этой системе со строкой x в качестве второго параметра.
+    </p>
+
+    <pre>
+    <code>
+        function task(x, func) 
+        { return func(null, ('lijiazhe').concat(x)); 
+            }
+
+    </code>
+    </pre>
+</div>
+</body>
+</html>

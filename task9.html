@@ -1,0 +1,27 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Li Jiazhe</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+<div class="code-example">
+    <p>
+        (0023) Предоставьте код async-функции task от одного аргумента x, которая возвращает в виде установленного 
+        промиса (строчное) значение свойства name переданного ей объекта (это значение само является установленным 
+        промисом), сконкатенированное с вашим логином в этой системе.
+    </p>
+
+    <pre>
+    <code>
+        async function task (x) {
+            const name = await x.name
+                return Promise.resolve(name  + 'lijiazhe')
+        }
+    
+    </code>
+    </pre>
+</div>
+</body>
+</html>
